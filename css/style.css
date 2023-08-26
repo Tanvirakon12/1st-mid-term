@@ -1,0 +1,175 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Tinos&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+::selection{
+    color: crimson;
+    background-color: aqua;
+
+}
+
+body{
+
+    background-color: #ffffff;
+    /* background-image:linear-gradient(white, #e9cdcd); */
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tinos', serif;
+}
+
+header{
+    background-image:linear-gradient(90deg, rgb(126, 147, 190),rgb(54, 110, 212)) 
+}
+.trd-sec{
+    background-image: linear-gradient( #ffffff,  #e6f2ff, #dbcdcd, #e2d0d0, #ffffff);
+}
+
+.first-logo{
+    width: 40%;
+    
+}
+
+
+h1{
+    color: #333333 !important;
+}
+
+.nav-link:hover{
+    border-bottom:3px solid #ff0096 !important ;
+}
+
+
+.holl-img{
+    /* filter:brightness(90%) contrast(100%); */
+}
+
+.fst-b {
+    /* background-color: #ff0096 !important; */
+    border: 2px solid white ;
+}
+.fst-b:hover {
+    background-color: #ff0096 !important;
+}
+
+.first-1{
+    /* background-color:#FFCBF2 !important; */
+    background: none !important;
+}
+
+.pro-1{
+    display: none !important;
+}
+.pro-2{
+    display:none !important;
+}
+.pro-3{
+    font-size: 10px;
+
+}
+
+.last-b1:hover{
+    border: 2px solid #2E294E !important;
+    background-color:#2E294E !important;
+}
+.wedding-plus-card{
+    border-radius: 25px !important;
+    cursor: pointer;
+
+}
+
+.wedding-plus-card:hover{
+    
+    /* background-color: #32afc9 !important; */
+    /* background-color: #ff0096 !important; */
+    background-color: #e2136e !important;
+    color: white !important;
+    padding: 48px 24px !important; 
+    margin-top: 16px !important;
+    .pro-1{
+
+        display:block !important;
+        color: white !important;
+        background-color: #0d6efd !important;
+    }
+    
+    .icon-fnt {
+        color:white !important;
+        
+    }
+    
+    .last-b1{
+        border: 1px solid #2E294E !important;
+    }
+    .last-b2{
+        
+    color: white !important;
+    }
+    .pro-2{
+        display: inline-flex !important;
+        font-size: 20px;
+    }
+    .pro-3{
+        display: none;
+    
+    }
+
+}
+
+
+
+.image-3{
+    border-radius: 25px;
+}
+/* .wedding-plus-card button a:hover{
+}
+#wedding-plus button a:hover{
+    color: white !important;
+} */
+
+.discount-toast {
+    border-left: 5px solid rgb(0, 60, 255);
+  }
+
+footer{
+    background-color: #003566;
+    padding: 0 100px;
+}
+
+
+.footer-div-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-div-2{
+    /* width:250px; */
+    text-align: end;
+    
+
+}
+.last-logo{
+    width: 27%;
+    /* height: 50px; */
+    
+}
+
+
+
+@media (max-width: 992px) {
+    .footer-div-1{
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+    }
+    .footer-div-2{
+        text-align: center;
+    }
+    .footer-div-3{
+        text-align:center;
+    }
+}
